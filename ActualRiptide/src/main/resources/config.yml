@@ -1,0 +1,20 @@
+Working: true #enable or disable launchpads
+
+message: true #have a message sent when they launch
+launch-message: '&9Whooooosh!!'
+
+
+whatblock: 'RED_CONCRETE'
+whatblock-v1.1: 'REDSTONE_BLOCK'
+whatblock-v1.2: 'RED_MUSHROOM_BLOCK'
+
+y-velocity: 2 #for whatblock
+x-velocity: 3 #for whatblock
+
+y-velocity-v1.1: 1 #for whatblock-v1.1
+x-velocity-v1.1: 1 #for whatblock-v1.1
+
+y-velocity-v1.2: 2 #for whatblock-v1.2
+x-velocity-v1.2: 3 #for whatblock-v1.2
+
+disable-fall-damage: true
