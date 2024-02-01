@@ -1,4 +1,0 @@
-name: untitled
-version: '${project.version}'
-main: jumppads.untitled.Untitled
-api-version: '1.18'
