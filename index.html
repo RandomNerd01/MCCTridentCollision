@@ -42,16 +42,28 @@
         .download-link a:hover {
             background-color: #0056b3;
         }
-        .arrow {
+        /* Style for the video container */
+    .video-container {
+      text-align: center;
+      margin-top: 50px; /* Adjust as needed */
+    }
+    
+    /* Style for the iframe */
+    iframe {
+      display: inline-block;
+    }
+    
+    /* Style for the arrow */
+    .arrow {
       position: absolute;
-      top: 50%;
-      right: 10px;
-      transform: translateY(-50%);
+      top: calc(50% + 20px); /* Adjust as needed */
+      right: calc(50% - 10px); /* Center horizontally */
       width: 0;
       height: 0;
       border-style: solid;
-      border-width: 10px 0 10px 20px;
-      border-color: transparent transparent transparent black;
+      border-width: 20px 10px 0 10px;
+      border-color: black transparent transparent transparent;
+      z-index: 1;
     }
     </style>
 </head>
@@ -67,12 +79,14 @@
         </div>
     </div>
      <h1>HTML Tutorial</h1>
-  <p>Welcome to our HTML tutorial! Below is a video tutorial:</p>
+  <p>Below is a video showcasing the plugin:</p>
   
-  <!-- Embedding a video using iframe -->
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/2mb7sCSTJKM?si=v40017tgihRRrODI" frameborder="0" allowfullscreen></iframe>
+  <!-- Video container with centered iframe -->
+  <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+  </div>
   
-  <!-- Arrow pointing to the iframe -->
+  <!-- Arrow pointing downward to the iframe -->
   <div class="arrow"></div>
 </body>
 </html>
