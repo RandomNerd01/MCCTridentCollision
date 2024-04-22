@@ -1,4 +1,4 @@
-# MCC Eliminating Trident Collision
+# Eliminating Trident Collision in Minecraft (Inspired by MCC Ace Race)
 
 1) Even when normal player collision is off, riptide trident collision is still present no matter what you do (Does not matter if you are in Creative or Adventure Mode)
 2) So I eliminate Riptide Trident Collision entirely, allowing players to bypass other players while in the Riptide Trident state
