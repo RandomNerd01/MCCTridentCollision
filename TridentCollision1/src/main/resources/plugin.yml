@@ -1,4 +1,0 @@
-name: TridentCollision1
-version: '${project.version}'
-main: jumppads.tridentcollision1.TridentCollision1
-api-version: '1.18'
